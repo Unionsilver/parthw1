@@ -23,7 +23,7 @@ public class Main {
                 67, 44, 99, 99);
         Slytherin grehem = new Slytherin("Грэхэм  ", "Монтегю", 88, 70,
                 56, 65, 79, 33, 97);
-        Slytherin gregori = new Slytherin("Грегори  ", "Гойл", 56, 95, 90,
+        Slytherin gregori = new Slytherin(" Грегори  ", "Гойл", 56, 95, 90,
                 88, 99, 45, 88);
         System.out.println(harry);
         System.out.println(gregori);

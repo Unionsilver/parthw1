@@ -39,13 +39,14 @@ public abstract class Hogwarts {
                 + " " + bottom.getSurname());
     }
 
-    public void compareStudent (Hogwarts student){
+    public void compareStudent(Hogwarts student) {
         if (this.equals(student)) {
             System.out.println("Попытка сравнить одинакового студента ");
         } else {
             System.out.println("одинаковая статистика");
         }
     }
+
     public String getName() {
         return name;
     }

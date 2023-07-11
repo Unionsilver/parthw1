@@ -32,13 +32,14 @@ public class Slytherin extends Hogwarts {
         int sum2 = another.cunning + another.determination + another.ambition + another.resourcefulness
                 + another.lustForPower;
         if (sum1 > sum2) {
-            printResultOfStudent(this,another);
+            printResultOfStudent(this, another);
         } else if (sum1 < sum2) {
             printResultOfStudent(this, another);
         } else {
             System.out.println("Равны между собой");
         }
     }
+
     private void printResultOfStudent(Slytherin top, Slytherin bottom) {
         System.out.println(top.getName() + " " + top.getSurname() + " сильнее чем " + bottom.getName()
                 + " " + bottom.getSurname());
