@@ -25,13 +25,14 @@ public class Puffendui extends Hogwarts {
         int sum1 = this.hardworking + this.loyal + this.honest;
         int sum2 = another.hardworking + another.loyal + another.honest;
         if (sum1 > sum2) {
-            printResultOfStudent(this,another);
+            printResultOfStudent(this, another);
         } else if (sum1 < sum2) {
             printResultOfStudent(this, another);
         } else {
             System.out.println("Равны между собой");
         }
     }
+
     private void printResultOfStudent(Puffendui top, Puffendui bottom) {
         System.out.println(top.getName() + " " + top.getSurname() + " сильнее чем " + bottom.getName()
                 + " " + bottom.getSurname());

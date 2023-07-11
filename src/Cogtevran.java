@@ -28,13 +28,14 @@ public class Cogtevran extends Hogwarts {
         int sum1 = this.smart + this.wise + this.witty + this.fullOfCreativity;
         int sum2 = another.smart + another.wise + another.witty + another.fullOfCreativity;
         if (sum1 > sum2) {
-            printResultOfStudent(this,another);
+            printResultOfStudent(this, another);
         } else if (sum1 < sum2) {
             printResultOfStudent(this, another);
         } else {
             System.out.println("Равны между собой");
         }
     }
+
     private void printResultOfStudent(Cogtevran top, Cogtevran bottom) {
         System.out.println(top.getName() + " " + top.getSurname() + " сильнее чем " + bottom.getName()
                 + " " + bottom.getSurname());
